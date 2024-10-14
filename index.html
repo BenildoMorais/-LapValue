@@ -42,9 +42,7 @@
     <div class="container">
 
       <h1><a href="index.html">LapValue</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>Baseado em Matchine Learning <span>RandomForest</span></h2>
+      <h2>Baseado em Matchine Learning <span>Regressão Linear Simples</span></h2>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -73,7 +71,7 @@
         <div class="about-me container">
 
           <div class="section-title">
-            <h2>Sobre</h2>
+            <h2>Problema</h2>
             <p>Entenda sobre o Projecto</p>
           </div>
     
@@ -142,20 +140,24 @@
 
     </div><!-- End About Me -->
 
+    
     <!-- ======= Counts ======= -->
+    <!-- 
     <div class="counts container">
 
    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum velit, mollitia odit quibusdam officiis dolorum accusantium tenetur inventore molestias fugiat nulla nihil culpa possimus exercitationem dolores unde ut eaque similique.
 
-    </div><!-- End Counts -->
+    </div>-->
+    <!-- End Counts -->
 
     <!-- ======= Skills  ======= -->
+    <!--
     <div class="skills container">
 
       <div class="section-title">
         <h2>Skills</h2>
       </div>
-
+    
       <div class="row skills-content">
 
         <div class="col-lg-6">
@@ -204,57 +206,8 @@
 
       </div>
 
-    </div><!-- End Skills -->
-
-    <!-- ======= Interests ======= -->
-    <!--
-    <div class="interests container">
-
-      <div class="section-title">
-        <h2>Interests</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-store-line" style="color: #ff2cc3;"></i>
-            <h3>Base de Dados</h3>
-          </div>
-        </div>
-   
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-calendar-todo-line" style="color: #e80303;"></i>
-            <h3>Engenharia de software</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-            <h3>Arquitectura de software</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-database-2-line" style="color: #47aeff;"></i>
-            <h3>Dev Backend</h3>
-          </div>
-        </div>
-       
-
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-fingerprint-line" style="color: #828d86;"></i>
-            <h3>Cibernética</h3>
-          </div>
-        </div>
-      </div>
-
     </div>
     -->
-    <!-- End Interests -->
-
-
   </section><!-- End About Section -->
 
   <!-- ======= Resume Section ======= -->
@@ -262,53 +215,53 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Resumo</h2>
-        <p>  Meu histórico</p>
+        <h2>Solução</h2>
+        <p>Solução do problema de Pesquisa
+        </p>
       </div>
 
       <div class="row">
         <div class="col-lg-6">
-          <h3 class="resume-title">Educação</h3>
+          <a href="https://www.alura.com.br/artigos/desvendando-a-regressao-linear"><h3 class="resume-title">Regressão Linear Simpples</h3></a>
           <div class="resume-item pb-0">
-            <h4>Escola</h4>
-            <h5>anos</h5>
-            <p><em>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellat totam nobis magnam quia dolor cupiditate sint architecto voluptatem, adipisci ullam, in quas quos ut similique aliquam incidunt facere nisi.</em></p>
+            <h4>O que é regressão linear simples?</h4>
+            <p><em>A regressão linear simples é uma metodologia que estuda a relação entre dois fenômenos, permitindo entender o efeito e a causalidade entre eles, além de prever novos valores. Para compreender melhor, vamos desvendar como ajustar a reta, interpretar e prever valores.</em></p>
+        
             <p>
+              <h5>Caracteristicas</h5>
             <ul>
-              <li>casa</li>
-              <li>contacto</li>
+              <li>Dependencia entre duas variaveis</li>
+              <li>Basea-se de uma equacção Linear</li>
+              <li>É um algoritmo de aprendizado supervisionado</li>
             </ul>
             </p>
           </div>
           <div class="resume-item">
-            <h4>nome de escola</h4>
-            <h5>anos</h5>
-            <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ut minus iure perspiciatis nesciunt incidunt, eius praesentium corrupti dolores. Ullam deserunt soluta laudantium dolore voluptatem natus aliquam excepturi velit quo?</em></p>
+            <h4>Como Foi implementado</h4>
+            <p><em>Para o presente projecto foi criado uma API em java atravez da framework Spring onde o modelo treinado com o dataset da lista de laptops e seus preços
+            </em></p>
+            <p><em>A API Recebe um Método post com os atributos do laptop e atravez do modelo criando faz a predição e retorna o preço previsto
+            </em></p>
           
           </div>
           <div class="resume-item">
-            <h4>escola</h4>
-            <h5>anos</h5>
-            <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ullam omnis expedita temporibus aliquam. Dolores, suscipit. Earum eius alias architecto magni minima repudiandae autem, nisi nulla ratione rem similique! Minima?</em></p>
-            <ul>
-              <li>link</li>
-              <li>contacto</li>
-            </ul>
+            <h4>Interfaçe do utilizador</h4>
+            <p><em>Baseado em HTML, CSS, JavaSCript e bootstrap a interface do utilizador foi feita com base num template de pórtifólio que foi alterado para
+              poder fornecer explicação sobre o problema e a descrição do problema e por sua vez um ambiente de teste que é responsavel por receber as caracteristicas 
+              dos laptops e por sua vez enviar os dados a API que faz o resto da operação e devolve o preço
+            </em></p>
           </div>
         </div>
         <div class="col-lg-6">
-          <h3 class="resume-title">Outros</h3>
+          <h3 class="resume-title">Tratamento de Dados</h3>
           <div class="resume-item">
-            <h4>Curso </h4>
-            <h5>Anos</h5>
-            <p><em>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi cupiditate molestias ducimus. Velit vero voluptate, atque maiores aspernatur veniam iure quasi laudantium earum quo eos voluptatibus nulla repudiandae corrupti a.</em></p>
-            <p></p>
-          </div>
-          <div class="resume-item">
-            <h4>cursos</h4>
-            <h5>anos</h5>
-            <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia numquam reiciendis, omnis assumenda qui consectetur autem quo impedit eveniet nesciunt odit dignissimos illo excepturi consequatur debitis a deleniti voluptate ipsa!</em></p>
-            
+            <h4>Dataset</h4>
+            <h5>Atributos</h5>
+            <p><em>O dataset era composto por 13 atributos que foram listados na página do problema dos quais foram reduzidos  para 9 pois para 
+              o presente projecto eles não são de extrema importancia
+            </em></p>
+            <h5>Preços</h5>
+            <p>Os preços também foram alvo de modificação por se econtrarem na moeda EURO sendo que no nosso país a moeda utilizada é o Metical MZN</p>
           </div>
         </div>
       </div>
