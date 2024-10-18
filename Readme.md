@@ -14,7 +14,18 @@
   <a href="https://bootstrapmade.com/personal-free-resume-bootstrap-template/" target="_blank">
       <img src="https://bootstrapmade.com/assets/img/logo.png" width="150" height="150" />
   </a>
+
+  <a href="https://www.kaggle.com/code/owm4096/laptop-prices-eda-w-ml-models-91-8-high/" target="_blank">
+      <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*JSbnt_mxpFfkGtNtGbR40g.png" width="150" height="150" />
+  </a>
+
 </div>
+
+## 🔧 Tools
+
+-   Spring Boot: Is a Java framework that simplifies developing web applications and microservices by providing tools to create production-ready applications with minimal configuration.
+-   Thymeleaf: Is a Java template engine used to create dynamic web pages. It integrates with Spring Boot to simplify the development of server-side rendered views, allowing for easy embedding of logic in HTML templates.
+-   Docker: Is a platform that simplifies the development, shipping, and running of applications by using containerization, allowing apps to run consistently across different environments with minimal configuration.
 
 
 
