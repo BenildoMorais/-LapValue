@@ -11,12 +11,12 @@
       <img src="https://www.kent.ac.uk/productivity-tools/images/weka.png" width="150" height="150" />
   </a>
 
-  <a href="https://bootstrapmade.com/personal-free-resume-bootstrap-template/" target="_blank">
-      <img src="https://bootstrapmade.com/assets/img/logo.png" width="150" height="150" />
-  </a>
-
   <a href="https://www.kaggle.com/code/owm4096/laptop-prices-eda-w-ml-models-91-8-high/" target="_blank">
       <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*JSbnt_mxpFfkGtNtGbR40g.png" width="150" height="150" />
+  </a>
+
+  <a href="https://bootstrapmade.com/personal-free-resume-bootstrap-template/" target="_blank">
+      <img src="https://bootstrapmade.com/assets/img/logo.png" width="150" height="150" />
   </a>
 
 </div>
