@@ -7,12 +7,12 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg" width="150" height="150" />
   </a>
 
-  <a href="https://www.thymeleaf.org/" target="_blank">
-      <img src="https://www.thymeleaf.org/images/thymeleaf.png" width="150" height="150" />
+  <a href="https://bootstrapmade.com/personal-free-resume-bootstrap-template/" target="_blank">
+      <img src="https://www.kent.ac.uk/productivity-tools/images/weka.png" width="150" height="150" />
   </a>
 
   <a href="https://www.docker.com/" target="_blank">
-      <img src="https://www.docker.com/wp-content/uploads/2023/08/logo-guide-logos-1.svg" width="150" height="150" />
+      <img src="https://bootstrapmade.com/assets/img/logo.png" width="150" height="150" />
   </a>
 </div>
 
