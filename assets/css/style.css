@@ -974,6 +974,7 @@ section .container {
   display: none;
   background: rgba(255, 255, 255, 0.08);
   background: #ed3c0d;
+  background-color: rgba(255, 255, 255, 0.3);;
   text-align: left;
   padding: 15px;
   font-weight: 600;
