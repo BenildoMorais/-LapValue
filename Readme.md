@@ -7,11 +7,11 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg" width="150" height="150" />
   </a>
 
-  <a href="https://bootstrapmade.com/personal-free-resume-bootstrap-template/" target="_blank">
+  <a href="https://ml.cms.waikato.ac.nz/index.html" target="_blank">
       <img src="https://www.kent.ac.uk/productivity-tools/images/weka.png" width="150" height="150" />
   </a>
 
-  <a href="https://www.docker.com/" target="_blank">
+  <a href="https://bootstrapmade.com/personal-free-resume-bootstrap-template/" target="_blank">
       <img src="https://bootstrapmade.com/assets/img/logo.png" width="150" height="150" />
   </a>
 </div>
