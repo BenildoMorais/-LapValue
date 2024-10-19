@@ -64,7 +64,7 @@ Composto por 13 atributos dos quais até o momento são usados 9 para a criaçã
 
 `Primeiro Como a aplicação funciona`
 
-Trata-se de uma aplicação web composta por uma interface interativa e uma API que recebe as caracteristicas do laptop e devolve o preço atravéz de regressão linear um algoritmo de Matchine Learning.
+Trata-se de uma aplicação web composta por uma `interface interativa` e uma `API` que recebe as caracteristicas do laptop e devolve o preço atravéz de regressão linear um algoritmo de Matchine Learning.
 
 `Siga os passos descritos asseguir para executar a aplicação:`
 
@@ -78,25 +78,11 @@ Trata-se de uma aplicação web composta por uma interface interativa e uma API 
   ```shell
   cd nomeDoProjecto/
   ```
-3. Abra o fixeiro index.html:
-
-  ```shell
-  docker build -t unitconvert .
-  ```
-
-Até esse ponto 
-
-4. Run the following command:
-
-  ```shell
-  docker run -p 8080:8080 unitconvert
-  ```
-
-The application will be accessible at http://localhost:8080/
+3. Abra o fixeiro index.html
 
 
-## 🙏 conclusion:
+Até esse ponto é possiver visisitar a pagina localmente e ver como ela funciona. Existe outra possiblilidade de acessar atravéz do link: <a href="https://benildomorais.github.io/LapValue/" target="_blank">LapVaule</a>
 
-The application was a course project that only lasted a week, but the knowledge will last forever.
-In a short space of time, I was able to consolidate different concepts about developing distributed web applications using Java.
-I'd like to take this opportunity to thank the people who made this course possible.
+`Sobre a API`
+
+Trata-se de uma aplicação complementada por uma API fornece o principal serviço da aplicação, foi desenvolvido em um projecto diferente baseando em java, weka e Spring. Devemos inicializar a API para poder ter a aplicação a funcionar por completo para isso podemos aceder ao repositório onde ela encontra-se alojada atravéz do link: <a href="https://github.com/BenildoMorais/LaptopPriceAPI" target="_blank">LaptopPriceAPI</a> 
