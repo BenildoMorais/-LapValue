@@ -23,9 +23,10 @@
 
 ## 🔧 Tools
 
--   Spring Boot: É uma framework Java que simplifica o desenvolvimento simples de aplicações web e microserviços provendo ferramentas para criar aplicações de produção prontas com o minimo de configuração.
--   Weka: Tem como objectivo agregar algoritmos provenientes de diferentes abordagens/paradigmas na sub-área da inteligência artificial dedicada ao estudo de aprendizagem de máquina.
--   Docker: Is a platform that simplifies the development, shipping, and running of applications by using containerization, allowing apps to run consistently across different environments with minimal configuration.
+- Spring Boot: É uma framework Java que simplifica o desenvolvimento simples de aplicações web e microserviços provendo ferramentas para criar aplicações de produção prontas com o minimo de configuração.
+- Weka: O Weka é uma coleção de algoritmos de aprendizagem automática para resolver problemas de extração de dados do mundo real. Está escrito em Java e é executado em quase todas as plataformas. Os algoritmos podem ser aplicados diretamente a um conjunto de dados ou chamados a partir do seu próprio código Java.
+- Kaggle: É uma plataforma de competição de ciência de dados e comunidade online para cientistas de dados e profissionais de aprendizado de máquina da Google LLC
+- BootstrapMade: É uma plataforma especializada na conceção e desenvolvimento de Templates Bootstrap e Templates de Website de alta qualidade, empenhados em impulsionar a presença online de empresas e indivíduos. 
 
 
 
