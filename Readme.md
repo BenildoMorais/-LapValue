@@ -8,7 +8,7 @@
   </a>
 
   <a href="https://ml.cms.waikato.ac.nz/index.html" target="_blank">
-      <img src="https://www.kent.ac.uk/productivity-tools/images/weka.png" width="150" height="150" />
+      <img src="https://waikato.github.io/weka-wiki/img/Weka%20%28software%29%20logo.png" width="150" height="150" />
   </a>
 
   <a href="https://www.kaggle.com/code/owm4096/laptop-prices-eda-w-ml-models-91-8-high/" target="_blank">
@@ -23,8 +23,8 @@
 
 ## 🔧 Tools
 
--   Spring Boot: Is a Java framework that simplifies developing web applications and microservices by providing tools to create production-ready applications with minimal configuration.
--   Thymeleaf: Is a Java template engine used to create dynamic web pages. It integrates with Spring Boot to simplify the development of server-side rendered views, allowing for easy embedding of logic in HTML templates.
+-   Spring Boot: É uma framework Java que simplifica o desenvolvimento simples de aplicações web e microserviços provendo ferramentas para criar aplicações de produção prontas com o minimo de configuração.
+-   Weka: Tem como objectivo agregar algoritmos provenientes de diferentes abordagens/paradigmas na sub-área da inteligência artificial dedicada ao estudo de aprendizagem de máquina.
 -   Docker: Is a platform that simplifies the development, shipping, and running of applications by using containerization, allowing apps to run consistently across different environments with minimal configuration.
 
 
