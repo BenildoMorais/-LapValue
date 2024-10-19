@@ -48,6 +48,55 @@ Composto por 13 atributos dos quais até o momento são usados 9 para a criaçã
       `Kaggle`
   </a> que servio como base e inspiração para a criação do presente projecto ainda com previsões de alteração para melhor de adaptar a realidade Moçambicana no contexto de venda de laptops. A baixo a lista dos atributos originais do dataset:
 
+- laptop_ID
+- Laptop Manufacturer
+- Brand and Model
+- Type (Notebook, Ultrabook, Gaming, etc.)
+- Screen Size
+- Screen Resolution
+- Central Processing Unit (CPU)
+- Laptop RAM
+- Hard Disk / SSD Memory
+- Graphics Processing Units (GPU)
 
 
-All services in this aplication uses the same data model, that´s why we have one data model, usually on big project we have different models for each service.
+## 💻 Como executar a aplicação
+
+`Primeiro Como a aplicação funciona`
+
+Trata-se de uma aplicação web composta por uma interface interativa e uma API que recebe as caracteristicas do laptop e devolve o preço atravéz de regressão linear um algoritmo de Matchine Learning.
+
+`Siga os passos descritos asseguir para executar a aplicação:`
+
+1. Clone este projecto:
+
+  ```shell
+  git clone https://github.com/BenildoMorais/LapValue.git
+  ```
+2. Navegue para o directorio principal:
+
+  ```shell
+  cd nomeDoProjecto/
+  ```
+3. Abra o fixeiro index.html:
+
+  ```shell
+  docker build -t unitconvert .
+  ```
+
+Até esse ponto 
+
+4. Run the following command:
+
+  ```shell
+  docker run -p 8080:8080 unitconvert
+  ```
+
+The application will be accessible at http://localhost:8080/
+
+
+## 🙏 conclusion:
+
+The application was a course project that only lasted a week, but the knowledge will last forever.
+In a short space of time, I was able to consolidate different concepts about developing distributed web applications using Java.
+I'd like to take this opportunity to thank the people who made this course possible.
