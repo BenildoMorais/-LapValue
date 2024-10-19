@@ -23,35 +23,31 @@
 
 ## 🔧 Ferramentas
 
-- Spring Boot: É uma framework Java que simplifica o desenvolvimento simples de aplicações web e microserviços provendo ferramentas para criar aplicações de produção prontas com o minimo de configuração.
-- Weka: O Weka é uma coleção de algoritmos de aprendizagem automática para resolver problemas de extração de dados do mundo real. Está escrito em Java e é executado em quase todas as plataformas. Os algoritmos podem ser aplicados diretamente a um conjunto de dados ou chamados a partir do seu próprio código Java.
-- Kaggle: É uma plataforma de competição de ciência de dados e comunidade online para cientistas de dados e profissionais de aprendizado de máquina da Google LLC
-- BootstrapMade: É uma plataforma especializada na conceção e desenvolvimento de Templates Bootstrap e Templates de Website de alta qualidade, empenhados em impulsionar a presença online de empresas e indivíduos. 
+- `Spring Boot:` É uma framework Java que simplifica o desenvolvimento simples de aplicações web e microserviços provendo ferramentas para criar aplicações de produção prontas com o minimo de configuração.
+- `Weka:` O Weka é uma coleção de algoritmos de aprendizagem automática para resolver problemas de extração de dados do mundo real. Está escrito em Java e é executado em quase todas as plataformas. Os algoritmos podem ser aplicados diretamente a um conjunto de dados ou chamados a partir do seu próprio código Java.
+- `Kaggle:` É uma plataforma de competição de ciência de dados e comunidade online para cientistas de dados e profissionais de aprendizado de máquina da Google LLC
+- `BootstrapMade:` É uma plataforma especializada na conceção e desenvolvimento de Templates Bootstrap e Templates de Website de alta qualidade, empenhados em impulsionar a presença online de empresas e indivíduos. 
 
 ## 📍 Serviço
 
 O principal serviço oferecido pelo presente projecto é a predição do preço de venda de um laptop baseado nas suas caracteristicas.
 As caracteristicas necessarias para a predição do preço são as descritas abaixo:
 
-- `LengthService`: The service is responsible for converting length units between meters, kilometers, miles, yards and inches.
-- `SpeedService`: The service is responsible for converting speed units between meters per second, kilometers per hour, miles per hour, knots and feet per second.
-- `TemperatureService`: The service is responsible for converting temperature units between Celsius, Fahrenheit, Kelvin and Rankine.
-- `TimeService`: The service is responsible for converting time units between seconds, minutes, hours, days, weeks and years.
-- `WeightService`: The service is responsible for converting weight units between grams, kilograms, tons, pounds and ounces.
+- `Marca`
+- `Modelo`
+- `Processador`
+- `Memoria Ram`
+- `Tipo de Tela`
+- `Armazenamento`
+- `Placa Grafica`
+- `Tamanho da Tela`
+
+## 📄 Dataset
+
+Composto por 13 atributos dos quais até o momento são usados 9 para a criação do modelo e para a predição de preços o Dataset tem origem no <a href="https://www.kaggle.com/code/owm4096/laptop-prices-eda-w-ml-models-91-8-high/" target="_blank">
+      `Kaggle`
+  </a> que servio como base e inspiração para a criação do presente projecto ainda com previsões de alteração para melhor de adaptar a realidade Moçambicana no contexto de venda de laptops. A baixo a lista dos atributos originais do dataset:
 
 
 
-
-
-
-
-
-
-
-
-
-
-Template Name: Personal
-Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+All services in this aplication uses the same data model, that´s why we have one data model, usually on big project we have different models for each service.
