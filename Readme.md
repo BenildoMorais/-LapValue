@@ -58,7 +58,17 @@ Composto por 13 atributos dos quais até o momento são usados 9 para a criaçã
 - Laptop RAM
 - Hard Disk / SSD Memory
 - Graphics Processing Units (GPU)
+- Operating System
+- Laptop Weight
+- Price (Euro)
 
+## 📄 Pré-Processamento os dados
+O modelo de Aprendizado foi feito com um dataset que sofreu varias alterações iniciando por corrigir linhas defeituosas que tinham mais de 13 atributos coisa que impossibilitava a conversão do sataset de csv para arff. Depois de feita a converção foram feitas algumas modificações dentre as quais:
+
+- Diminuição de 13 para 9 colunas
+- Modificação da coluna de preços de Euro para Metical (MZN)
+
+Para o pré-processamento foi utilizado o weka e alguns algoritmos em java no intellij 
 
 ## 💻 Como executar a aplicação
 
